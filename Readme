@@ -1,0 +1,33 @@
+JARVIS.ai
+Overview
+JARVIS.ai (Just A Rather Very Intelligent System) is an AI-based personal assistant application that uses voice commands to perform various tasks. It leverages multiple APIs and libraries to provide functionalities such as answering questions, performing calculations, retrieving movie information, and more.
+
+Features
+Voice Commands: Interact with JARVIS.ai using natural language.
+WolframAlpha Integration: Perform complex calculations and answer factual questions.
+IMDb Integration: Retrieve movie information, including ratings, cast, and plot summaries.
+Text Extraction from Images: Extract text from uploaded images using Tesseract OCR.
+Sound Playback: Play sound files using SimpleAudio.
+Google and Wikipedia Search: Search for information on Google and Wikipedia.
+YouTube Playback: Play YouTube videos.
+Email Sending: Send emails using voice commands.
+News Retrieval: Get the latest news headlines.
+Weather Forecast: Get weather forecasts for specified locations.
+Requirements
+Python 3.x
+pyttsx3
+decouple
+datetime
+speech_recognition
+random
+keyboard
+subprocess
+requests
+os
+imdbpy
+wolframalpha
+wikipedia
+pywhatkit
+smtplib
+email
+newsapi
